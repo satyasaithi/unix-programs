@@ -1,0 +1,90 @@
+Script started on 2021-04-07 09:12:14+05:30 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ read un
+4
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ case $un in
+> 1) echo "tel";;
+> 2)echo "eng";;
+> 3)echo "hindi";;
+> 4)echo "french";;
+> *)echo "other:[K";;
+> esac
+french
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ a [K=1
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ while((a>=10[K[K[K[K<=10))
+> e[Kdo
+> echo "[K$a
+> a=a+1
+> done
+1
+bash: ((: a+1: expression recursion level exceeded (error token is "a+1")
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ a=1
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ while((a<=10))
+> do
+> echo $a
+> ((a=a+1))
+> done
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ i=[K[Ka=q[K1
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ until((a>=10))
+> do
+> echo $a
+> ((i[Ka=a+1))
+> done
+1
+2
+3
+4
+5
+6
+7
+8
+9
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ for(i=1;i<=10;i++)[C(i=1;i<=10;i++)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+> do
+> echo $i
+> done
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ a=1
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ while((a<=10))
+> do
+> echo $a
+> i[Ka='expr [K $a+1'
+> done
+1
+bash: ((: expr $a+1: syntax error: invalid arithmetic operator (error token is "$a+1")
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ while((a<=10)); do echo $a; a='expr $a+1'; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K))
+> do
+> echo $a
+> a='a<=10 $a+1'
+> done
+bash: ((: expr $a+1: syntax error: invalid arithmetic operator (error token is "$a+1")
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ a=2
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ while((a<=10))
+> do
+> echp[Ko $a
+> a='expr$a+1'
+> done
+2
+bash: ((: expr$a+1: syntax error: invalid arithmetic operator (error token is "$a+1")
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2021-04-07 09:49:33+05:30 [COMMAND_EXIT_CODE="0"]

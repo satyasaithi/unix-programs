@@ -1,0 +1,39 @@
+Script started on 2021-04-06 11:37:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ unan[Kme
+Linux
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ gzip satya.[K[K[K[K[K[K-c satya.txt >satya.txt.gz
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ ls
+44       Ch6S2F1      Ch6S3F1Encr  Ch6S5F2  CsF1     assg3    [0m[01;31mr.gz[0m   [34;42mregular[0m       typescript
+Ch6S1F1  Ch6S2F1Encr  Ch6S4F1      Ch6S5F3  CsF2     [01;34mbobby[0m    [01;31mra.gz[0m  satya.txt     unix-assg2
+Ch6S1F2  Ch6S3F1      Ch6S5F1      Ch6S6F1  [01;34mS160610[0m  ch6S1F1  [01;34mrani[0m   [01;31msatya.txt.gz[0m
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ gunzip r.gz
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ ls -1
+44
+Ch6S1F1
+Ch6S1F2
+Ch6S2F1
+Ch6S2F1Encr
+Ch6S3F1
+Ch6S3F1Encr
+Ch6S4F1
+Ch6S5F1
+Ch6S5F2
+Ch6S5F3
+Ch6S6F1
+CsF1
+CsF2
+[0m[01;34mS160610[0m
+assg3
+[01;34mbobby[0m
+ch6S1F1
+r
+[01;31mra.gz[0m
+[01;34mrani[0m
+[34;42mregular[0m
+satya.txt
+[01;31msatya.txt.gz[0m
+typescript
+unix-assg2
+]0;saithi@admin: ~[01;32msaithi@admin[00m:[01;34m~[00m$ exit
+
+Script done on 2021-04-06 11:46:55+05:30 [COMMAND_EXIT_CODE="0"]
